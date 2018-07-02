@@ -400,7 +400,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dns.xcelrtools.co", "dns.xcelrnode.online",""};
+static const string mainnet_seeds[] = {"dnsseed.xcelrtools.co", "dnsseed.xcelrnode.online",""};
 static const string testnet_seeds[] = {"testnet.xcelrnode.club""};
 static const string *seeds = mainnet_seeds;
 
